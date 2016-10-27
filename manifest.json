@@ -1,9 +1,9 @@
 {
 	"manifest_version": 2,
 
-	"name": "Opera Extensions — Getting Started",
-	"description": "Sample extension for the “Making your first extension” article",
-	"version": "1.0",
+	"name": "Bitbucket shiny issues",
+	"description": "Extension to improve Bitbucket issues UI",
+	"version": "0.1",
 	"background": {
 		"scripts": ["background.js"]
 	},
@@ -11,8 +11,7 @@
 	"permissions": ["tabs"],
 	"browser_action": {
 		"default_icon": "icon.png",
-		"default_title": "Go to Dev.Opera!",
-
+		"default_title": "Customize Bitbucket issues UI",
 		"default_popup": "popup.html"
 	},
 	
